@@ -1,0 +1,86 @@
+.notes-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.note-card{
+    border: 1px solid #141E30;
+    border-radius: 10px;
+    margin: 20px;
+    width: 240px;
+    height: 179px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.note-card h3{
+    display: block;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    padding: 5px 0;
+}
+
+.note-card p{
+    padding: 8px;
+}
+
+.small-delete{
+    position: absolute;
+    background-color: rgb(219, 78, 78);
+    border: 1px solid rgb(202, 162, 162);
+    color: white;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.note-body{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.mrg{
+    padding-top: 40px;
+}
+
+.clickHere{
+    text-decoration: none;
+    margin-left: 4px;
+    color: black;
+
+}
+
+.clickHere:visited,
+.clickHere:focus,
+.clickHere:active
+{
+    text-decoration: none;
+}
+
+/* ////////// Pantallas chicas ////////// */
+
+@media screen and (max-width: 950px){
+    .notes-container{
+        display: flex;
+        margin: 10px 20px;
+    
+    }
+}
+
+/* ////////// Pantallas medianas - grandes ////////// */
+
+@media screen and (min-width: 951px){
+    .notes-container{
+        display: flex;
+        width: 900px;
+        margin: 0 auto;
+    
+    }
+}

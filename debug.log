@@ -1,0 +1,2 @@
+[1117/132246.650:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1117/190039.650:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\JP\AppData\Local\Google\Chrome\User Data\Crashpad\reports\01bd7329-86a3-4623-b058-753d35243e36.dmp: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso. (0x20)

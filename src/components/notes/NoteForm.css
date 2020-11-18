@@ -1,0 +1,104 @@
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin: 0 10px;
+    width: 140px !important;
+}
+
+.red{
+    background-color: rgb(247, 75, 75);
+    color: white;
+    cursor: pointer;
+}
+
+.note-form {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+    border: 2px solid #141E30; 
+    border-top: 0
+}
+  
+  /* Reset top and bottom margins from certain elements */
+.note-form-header,
+.note-form p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  
+  /* The triangle form is achieved by a CSS hack */
+  
+  
+.note-form-header {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+  
+.note-form-container {
+    background: #ebebeb;
+    padding: 12px;
+}
+  
+  /* Every row inside .login-container is defined with p tags */
+.note-form p {
+    padding: 12px;
+}
+
+.note-form input,
+.note-form textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+
+}
+
+.note-form textarea{
+    resize: none;
+    height: 200px;
+}
+  
+.note-form input[type="text"],
+.note-form textarea {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+  }
+  
+/* Text fields' focus effect */
+.note-form input[type="text"]:focus,
+.note-form textarea:focus {
+    border-color: #888;
+}
+
+.note-form input[type="submit"] {
+    background: #141E30; ;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+  
+.note-form input[type="submit"]:hover {
+    background: #141E30; ;
+}
+  
+  /* Buttons' focus effect */
+  .note-form input[type="submit"]:focus {
+    border-color: #141E30; ;
+}
